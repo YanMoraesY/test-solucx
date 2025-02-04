@@ -1,20 +1,36 @@
-# Solucx - Test Automation with Cypress 🚀
+Solucx - Testes Automatizados
+Este repositório contém testes automatizados utilizando Cypress para validar funcionalidades do sistema Solucx. Os testes são executados em um pipeline de CI/CD, garantindo a qualidade e o bom funcionamento do sistema.
 
-![GitHub Workflow Status](https://github.com/YanMoraesY/solucx/actions/workflows/cypress-tests.yml/badge.svg)
+🚀 Como Executar os Testes
+1️⃣ Pré-requisitos
+Antes de rodar os testes, verifique se você tem as ferramentas necessárias instaladas:
 
-Este repositório contém testes automatizados utilizando **Cypress** para validar a funcionalidade da aplicação.
+Node.js: versão 16 ou superior.
+npm (gerenciador de pacotes) ou yarn.
+Caso não tenha o Node.js instalado, acesse o site oficial e siga as instruções para instalação.
 
-## 📌 Requisitos
+2️⃣ Instalação
+Clone o repositório:
 
-Antes de começar, certifique-se de ter instalado:
+No terminal, clone o repositório para sua máquina local com o seguinte comando:
 
-- [Node.js](https://nodejs.org/) (versão 18 ou superior)
-- [NPM](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
-- [Cypress](https://www.cypress.io/)
-
-## 🚀 Configuração
-
-Clone este repositório:
-```sh
 git clone https://github.com/YanMoraesY/solucx.git
-cd solucx
+ cd solucx
+ npm install 
+3️⃣ Executando os Testes ▶️ Rodar testes em modo headless (sem interface gráfica):
+
+  npm run cy:run
+🖥️ Abrir o Cypress em modo interativo: Se você preferir visualizar os testes sendo executados em um ambiente gráfico, use o modo interativo:
+
+  npm run cy:open
+Isso abrirá o Cypress UI e você poderá escolher qual teste executar manualmente.
+
+4️⃣ Pipeline e Dashboard Os testes estão configurados para rodar automaticamente em um pipeline de CI/CD. A execução dos testes e o histórico de resultados podem ser visualizados no Cypress Dashboard.
+
+🔗 Acessar o Dashboard Cypress 5️⃣ Estrutura de Testes Os testes estão organizados dentro da pasta cypress/integration. Cada cenário de teste foi projetado para garantir a funcionalidade e qualidade do sistema Solucx.
+
+6️⃣ Salvando Artefatos Em caso de falha nos testes, as capturas de tela e vídeos serão automaticamente salvos para que você possa inspecionar e depurar o que aconteceu.
+
+As capturas de tela ficam em cypress/screenshots. Os vídeos podem ser encontrados em cypress/videos. Esses artefatos serão armazenados no pipeline para análise posterior.
+
+📌 Contato Caso tenha dúvidas ou precise de suporte, entre em contato com o responsável pelo repositório ou abra uma issue diretamente no GitHub.
