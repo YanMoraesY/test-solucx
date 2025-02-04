@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "cy:open": "cypress open",
+        "cy:run": "cypress run --record --key f22fe91e-2725-4f48-bf6a-747e10604f8c"
+    },
+    "dependencies": {
+        "cypress-real-events": "^1.14.0"
+    },
+    "devDependencies": {
+        "cypress-plugin-tab": "^1.0.5"
+    }
+}
