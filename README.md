@@ -1,6 +1,6 @@
 # **Solucx - Testes Automatizados**
 
-Este repositório contém testes automatizados utilizando **Cypress** para validar funcionalidades do sistema **Solucx**. Os testes são executados em um pipeline de CI/CD, garantindo a qualidade e o bom funcionamento do sistema.
+Este repositório contém testes automatizados utilizando **Cypress** para validar funcionalidades. Os testes são executados em um pipeline de CI/CD, garantindo a qualidade e o bom funcionamento do sistema.
 
 ## 🚀 **Como Executar os Testes**
 
